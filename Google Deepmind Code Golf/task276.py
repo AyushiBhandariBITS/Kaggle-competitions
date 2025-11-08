@@ -1,0 +1,1 @@
+p=lambda j:[[2*(x==6)+x*(x!=6)for x in r]for r in j]

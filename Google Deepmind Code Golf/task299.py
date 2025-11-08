@@ -1,0 +1,1 @@
+p=lambda m:[(m.__setitem__(i,[2]*6),[r.__setitem__(j,8)for r in m],m[i].__setitem__(j,4))[0]for i in range(6)for j in range(6)if 2 in m[i]and any(r[j]==8for r in m)][0]or m

@@ -1,0 +1,1 @@
+p=lambda j:[[2if c==8 else c for c in r]for r in[j[-1]]+j[:-1]]

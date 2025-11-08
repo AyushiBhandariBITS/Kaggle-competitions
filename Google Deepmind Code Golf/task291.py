@@ -1,0 +1,1 @@
+p=lambda g:next([[z]]for r in range(len(g)-1)for c in range(len(g[0])-1)for C in [g[r][c:c+2]+g[r+1][c:c+2]]if C.count(0)==1 for z in range(1,10)if C.count(z)==3)

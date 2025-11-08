@@ -1,0 +1,1 @@
+p=lambda e:(lambda c,k:c(k(c(e)))if k(e)==e else k(e))(lambda x:list(map(list,zip(*x))),lambda x:[[a[0]]*len(a)if a[0]else a for a in x])
