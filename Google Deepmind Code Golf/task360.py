@@ -1,0 +1,1 @@
+p=lambda g:[[a or b if a*b<1 else a for a,b in zip(r,r[::-1])][:4]for r in g]

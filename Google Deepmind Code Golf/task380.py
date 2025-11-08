@@ -1,0 +1,1 @@
+p=lambda m:list(zip(*m))[::-1]

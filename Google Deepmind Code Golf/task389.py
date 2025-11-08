@@ -1,0 +1,1 @@
+p=lambda j:[[next(c for c in set(sum(j,[]))-{0,5})if x==5else 0for x in r]for r in j]

@@ -1,0 +1,1 @@
+p=lambda j:[[0 if r[c]+r[c+4]>0 else 3 for c in range(3)]for r in j]

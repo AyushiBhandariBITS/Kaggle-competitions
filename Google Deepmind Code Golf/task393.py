@@ -1,0 +1,1 @@
+p=lambda a:[[k]for k in sorted({v for r in a for v in r if v},key=lambda x:-sum(x==v for R in a for v in R))]

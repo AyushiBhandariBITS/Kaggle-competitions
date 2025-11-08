@@ -1,0 +1,1 @@
+p = lambda m: [[((((not m[i][j])&(not m[i+3][j])))<<1) for j in (0,1,2)] for i in (0,1,2)]
