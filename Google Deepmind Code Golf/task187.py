@@ -1,0 +1,1 @@
+def p(g):b=len(g[0]);t=sum(g,[]);S=range(len(t));f=lambda n:t[n:n+1]==[0]and(t.__setitem__(n,3),[f(n+k)for k in(-1,1,-b,b)]);[f(n)for n in[*S[:b],*S[-b:],*S[::b],*S[b-1::b]]];return[[x or 2 for x in t[i:i+b]]for i in S[::b]]

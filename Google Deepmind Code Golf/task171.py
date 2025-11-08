@@ -1,0 +1,1 @@
+p=lambda a:[[8]*len(a[0])if i<1or i==len(a)-1 else[8,*a[i][1:-1],8]for i in range(len(a))]

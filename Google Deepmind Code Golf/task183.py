@@ -1,0 +1,1 @@
+def p(j):A=range;c=len(j);E=c//2-2;w=[j[0][0],j[0][-1],j[-1][0],j[-1][-1]];return[[w[(y-2)//E*2+(x-2)//E]if j[y][x]==8 else j[y][x]for x in A(2,c-2)]for y in A(2,c-2)]
