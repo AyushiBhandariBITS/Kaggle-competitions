@@ -1,0 +1,1 @@
+p=lambda g:[[3*(not g[i][j] and not g[i+5][j])for j in range(4)]for i in range(4)]

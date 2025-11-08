@@ -1,0 +1,2 @@
+def p(a):
+ o=[r[:]for r in a];[o[-1].__setitem__(j+1,4)for i in range(len(a)-1)for j in range(len(a[0])-2)if a[i][j]and a[i][j:j+3]==[a[i][j]]*3and a[i+1][j]and not a[i+1][j+1]and a[i+1][j+2]];return o

@@ -1,0 +1,1 @@
+p=lambda j:[[1if sum(j[E*4+l][k*4+J]==6for l in range(3) for J in range(3))>=2 else 0for k in range(3)]for E in range(3)]
