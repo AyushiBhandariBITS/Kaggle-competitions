@@ -1,0 +1,1 @@
+p=lambda a:[[y if y==max(sum(a,[]),key=lambda k:sum(r.count(k)for r in a))else 5for y in r]for r in a]

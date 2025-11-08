@@ -1,0 +1,1 @@
+p=lambda j:[[r for k,r in enumerate(j)if sum(r)and k%3==i%3][0]for i in range(len(j))]

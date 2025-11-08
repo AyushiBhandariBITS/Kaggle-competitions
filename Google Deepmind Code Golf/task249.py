@@ -1,0 +1,1 @@
+p=lambda j:[r+r for r in j]
