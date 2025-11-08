@@ -1,0 +1,1 @@
+p=lambda a:[[r[0]if x==5 else x for x in r]for r in a]

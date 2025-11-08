@@ -1,0 +1,1 @@
+p=lambda m:[[0]*(len(r)-len(z))+z for r in sorted(m,key=lambda r:sum(x!=0for x in r))for z in[sorted(x for x in r if x)]]

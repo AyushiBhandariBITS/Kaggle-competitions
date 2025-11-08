@@ -1,0 +1,1 @@
+p=lambda a:[[r[len(r)//2]*(j==len(r)//2)for j in range(len(r))]for r in a]

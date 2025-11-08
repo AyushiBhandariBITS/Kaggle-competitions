@@ -1,0 +1,1 @@
+p=lambda g:[[0if g[i][j]==g[i+5][j]else 3for j in range(4)]for i in range(4)]

@@ -1,0 +1,1 @@
+p=lambda j:[[5*(x==7)+x*(x!=7)for x in r]for r in j]
