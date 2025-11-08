@@ -1,0 +1,2 @@
+def p(j):
+ r=range;c=len;E=[k for k in r(c(j[0])) if any(j[i][k]==5 for i in r(c(j)))];W=[i for i in r(c(j)) if j[i][E[0]]==5];J,a=min(W)-1,max(W)+1;C,e=E[0],E[1];return[[j[i][k]for k in r(C,e+1)]for i in r(J,a+1)]
