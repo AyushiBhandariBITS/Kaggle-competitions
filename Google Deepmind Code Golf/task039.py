@@ -1,0 +1,1 @@
+def p(c):w=[(i,j)for i,r in enumerate(c)for j,x in enumerate(r)if x>0];a,C=min(x for _,x in w),max(x for _,x in w);e,K=min(y for y,_ in w),max(y for y,_ in w);C-=(C-a)//2;K-=(K-e)//2;return[r[a:C]for r in c[e:K]]

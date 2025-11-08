@@ -1,0 +1,1 @@
+p=lambda m:[[8*(x==y==0)for x,y in zip(m[i],m[i][4:])]for i in range(5)]

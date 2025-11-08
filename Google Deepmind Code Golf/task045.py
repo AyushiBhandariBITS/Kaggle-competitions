@@ -1,0 +1,1 @@
+p = lambda m: [[r[0]]*10 if r[0] == r[9] != 0 else r for r in m]
